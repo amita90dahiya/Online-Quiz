@@ -1,0 +1,36 @@
+
+
+
+angular.module("sportsStore")
+.controller("sportsStoreCtrl", function ($scope) {
+$scope.date = {
+question: [
+    {
+
+        "type": "ASP.NET",
+        "name": "The first event triggers in an aspx page is.?",
+        "id": 1,
+        "option": [{"value": "Page_Init()", "oid": 1, "isAns": false},
+            {"value": "Page_load()", "oid": 2, "isAns": false},
+            {"value": "Page_Click()", "oid": 3, "isAns": true}]
+    },
+    {
+        "type": "ASP.NET",
+        "name": " Which of the following ASP.NET object encapsulates the state of the client?",
+        "id": 2,
+        "option": [{"value": "Session object", "oid": 1, "isAns": true},
+            {"value": "Application object", "oid": 2, "isAns": false},
+            {"value": "Response object", "oid": 3, "isAns": false}]
+    },
+    {
+        "type": "ASP.NET",
+        "name": "__________________ is a special subfolder within the windows folder that stores the shared .NET component.",
+        "id": 3,
+        "option": [{"value": "/bin", "oid": 1, "isAns": false},
+            {"value": "GAC", "oid": 2, "isAns": true},
+            {"value": "Root", "oid": 3, "isAns": false}]
+    }]
+};
+});
+
+
